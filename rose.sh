@@ -1,0 +1,1 @@
+ aws eks create-cluster --region us-east-1 --name roseProjectcluster --kubernetes-version 1.22 --role-arn arn:aws:iam::968038686661:role/eksclusterrole:role/EksClusterRole --resources-vpc-config subnetIds=subnet-0a289d442b3077266,subnet-0b65b4fcebab82b37,subnet-030a6b6f6b30b87a4,securityGroupIds=sg-07f73e405d1a679e2 --
